@@ -1,4 +1,47 @@
 nav {
-	background-color: blue;
+	background-color: #ffffff;
+	box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.19);
+}
 
+input {
+	background-color: #edebeb;
+	border-radius: 4px;
+	border: 1px solid #e2e2e2;
+}
+
+button {
+	background-color: #7354fc;
+	border-radius: 4px;
+	border: none;
+	color: #fff;
+	font-weight: 700;
+	font-size: 14px;
+	width: 100%;
+	
+}
+
+.smll-button {
+	color: #7354fc;
+	border: 2px solid #7354fc;
+	border-radius: 4px;
+	text-decoration: none;
+	padding: 6px;
+	font-size: 12px;
+}
+
+.med-button {
+	color: #7354fc;
+	border: 2px solid #7354fc;
+	background-color: #fff;
+	border-radius: 4px;
+	text-decoration: none;
+	padding: 15px;
+	font-size: 12px;
+}
+
+.secondary-link {
+	font-size: 12px;
+	display: inline-flex;
+	align-items: center;
+	padding: 14px 16px;
 }
