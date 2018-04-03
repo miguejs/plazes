@@ -1,12 +1,13 @@
 .place-category {
   color: #7354fc;
-  font-weight: 700;
   font-size: 14px;
+  font-weight: 700;
+  font-weight: 700;
   margin-top: 8px;
 }
 
 .place-image {
-  height: 300px;
+  height: 200px;
 }
 
 .location-icon {
