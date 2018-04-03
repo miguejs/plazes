@@ -2,10 +2,11 @@ body {
   background-color: #fff;
   color: #0d1520;
   font-family: 'Montserrat', sans-serif;
+  margin: 0px;
 }
 
 h1 {
-
+ font-size: 2em;
 }
 
 a {

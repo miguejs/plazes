@@ -1,7 +1,13 @@
 nav {
-
+  align-items: center;
+  display: flex;
+  height: 80px;
+  justify-content: flex-end;
 }
 
 .container {
-  margin: 0 32px 0 32px;
+  padding: 0 32px 0 32px;
+}
+
+section {
 }
