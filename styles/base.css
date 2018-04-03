@@ -1,6 +1,5 @@
 body {
   background-color: #fff;
-  color: #0d1520;
   font-family: 'Montserrat', sans-serif;
   margin: 0px;
 }
@@ -10,7 +9,17 @@ h1 {
 }
 
 a {
-  font-weight: bold;
-  text-decoration: none;
   color: #0d1520;
+  font-weight: 700;
+}
+
+.primary {
+  color: #994BD7;
+}
+.secondary-link {
+  text-decoration: none;
+}
+
+.list-background {
+  background: #F8F8F8;
 }
