@@ -21,3 +21,21 @@ a {
 .list-background {
   background: #F8F8F8;
 }
+
+img {
+  width: 100%;
+}
+
+input {
+  height: 40px;
+  width: 100%;
+}
+
+button {
+  padding: 15px;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+}
