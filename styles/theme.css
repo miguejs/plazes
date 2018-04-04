@@ -1,25 +1,26 @@
-nav {
-	background-color: #ffffff;
-	box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.19);
-}
-
-input {
+/* input {
 	background-color: #edebeb;
 	border: 1px solid #e2e2e2;
 	border-radius: 4px;
-}
+} */
 
-button {
-	background-color: #7354fc;
-	border: none;
-	border-radius: 4px;
+.btn {
 	color: #fff;
 	font-size: 14px;
 	font-weight: 700;
-	width: 100%;
+	border-radius: 4px;
+	padding: 10px 15px;
+	background-color: #7354fc; 
 }
 
-.smll-button {
+.btn-outline {
+	border: 2px solid #7354fc;
+	background-color: #fff;
+	color: #7354fc;
+}
+
+
+/* .small-button {
 	border: 2px solid #7354fc;
 	border-radius: 4px;
 	color: #7354fc;
@@ -51,12 +52,7 @@ button {
   text-decoration: none;
 }
 
-.btn-link {
-	line-height: 2;
-  margin: 14px 16px;
-}
-
 .secondary-link-bold {
   font-weight: 700;
   text-decoration: none;
-}
+} */

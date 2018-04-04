@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="styles/base.css">
   <link rel="stylesheet" href="styles/layout.css">
+  <link rel="stylesheet" href="styles/components/nav.css">
   <link rel="stylesheet" href="styles/components/place.css">
   <link rel="stylesheet" href="styles/components/list.css">
   <link rel="stylesheet" href="styles/theme.css">
@@ -13,119 +14,30 @@
   <title>Plazes</title>
 </head>
 <body>
-  <header>
-    <nav class="container with-shadow">
-      <div class="flex-row right">
-        <a class="nav-link" href="/">plazes</a>
-        <a class="nav-link" href=" #descubrir">Descubrir</a>
-        <a class="nav-link" href="#favoritos">Favoritos</a>
-        <a class="btn-link smll-button" href="#login">Iniciar Sesión</a>
+  <header class="main-nav">
+    <nav class="container">
+      <div class="flex-row space-between">
+        <div class="flex-row align-center">
+          <a class="main-nav--link" href="/">plazes</a>
+        </div>
+
+        <div class="flex-row right align-center">
+          <a class="main-nav--link" href=" #descubrir">Descubrir</a>
+          <a class="main-nav--link" href=" #descubrir">no te muevas</a>
+          <a class="main-nav--link" href="#favoritos">Favoritos</a>
+          <button class="main-nav--link btn btn-outline" href="#login">Iniciar Sesión</button>
+        </div>
       </div>
     </nav>
   </header>
-  <section class="container">
-    <div class="row">
-      <div class="col-2">
-          <h1>Descubre lugares  interesantes a donde ir por locales como tú.</h1>
-      </div>
-    </div>
-    <div class="row">
+  <section>
+    <div class="container" >
+      <div class="row">
         <div class="col-2">
-          <input type="text" placeholder="Prueba con Mexico" class="search-bar">
+            <h1>Descubre lugares  interesantes a donde ir por locales como tú.</h1>
         </div>
-        <div class="col-1">
-          <button > Buscar</button>
-        </div>
-        <div class="col-1" >
-          <button class="med-button"> Crea tu lista</button>
-        </div>
-      </div>
-  </section>
-  <section class="container">
-    <h2>Lugares Recientes</h2>
-    <div class="row">
-      <div class="col-1 place">
-        <img class="place-image" src="https://images.unsplash.com/photo-1503764654157-72d979d9af2f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=71cdddf5cc615224cf2c26614d20154d&auto=format&fit=crop&w=1953&q=80" alt="">
-        <span class="place-category">Bar</span>
-        <h3>Maverick</h3>
-        <span> <img class="location-icon" src="https://upload.wikimedia.org/wikipedia/commons/8/88/Map_marker.svg" alt=""> Monterrey</span>
-        <div class="rating primary">
-            <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
-        </div>
-      </div>
-      <div class="col-1 place">
-          <img class="place-image" src="https://images.unsplash.com/photo-1481070414801-51fd732d7184?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=82203e4d57fc0d3bdd8ffc0f66d09763&auto=format&fit=crop&w=1525&q=80" alt="">
-          <span class="place-category">Restaurant</span>
-          <h3>Organic Mistery</h3>
-          <span> <img class="location-icon" src="https://upload.wikimedia.org/wikipedia/commons/8/88/Map_marker.svg" alt=""> Ciudad de Mexico</span>
-          <div class="rating primary">
-              <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
-          </div>
-        </div>
-    </div>
-    <div class="flex-row center">
-      <a  class="primary" href="#more-places"> Mostrar más recientes </a>
-    </div>
-  </section>
-  <section class="container list-background">
-    <h2>Tipos de experiencias</h2>
-    <div class="flex-row">
-      <div class="list col-3">
-        <div class="list-header">
-          <h4>Lista</h4>
-          <h1>Restaurantes Hogareños</h1>
-        </div>
-        <img class="list-image" src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=fada82e527ef9eeaa1faed34043b425b&auto=format&fit=crop&w=1267&q=80" alt="">
-      </div>
-      <div class="list col-3">
-          <div class="list-header">
-              <h4>Lista</h4>
-              <h1>Bares para estar con amigos</h1>
-            </div>
-        <img class="list-image" src="https://images.unsplash.com/photo-1477763858572-cda7deaa9bc5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=1e286beb32274afd7a94dd1ed402c56a&auto=format&fit=crop&w=1276&q=80" alt="">
       </div>
     </div>
   </section>
-  <section class="container">
-      <h2>Usuarios Destacados</h2>
-  </section>
-  <footer class="container flex-row">
-    <div class="flex-row">
-      <div class="flex-col">
-        <h2>plazes</h2>
-        <span>Derechos Reservados 2018</span>
-      </div>
-    </div>
-    <div class="flex-row  space-between">
-      <div class="flex-col">
-        <a class="secondary-link-bold" href="#acerca">Acerca de</a>
-        <br>
-        <a class="secondary-link" href="#acerca">Empresa</a>
-        <a class="secondary-link" href="#acerca">Trabajos</a>
-        <a class="secondary-link" href="#acerca">Marcas</a>
-      </div>
-      <div class="flex-col">
-        <a class="secondary-link-bold" href="#legal">Legal</a>
-        <br>
-        <a class="secondary-link" href="#legal">Aviso de Privacidad</a>
-        <a class="secondary-link" href="#legal">Terminos y condiciones</a>
-      </div>
-      <div class="flex-col"> 
-        <a class="secondary-link-bold" href="#siguenos">Siguenos</a>
-        <br>
-        <div class="flex-row space-between">
-          <a href="#twitter">
-            <img class="icon" src="https://image.flaticon.com/icons/svg/23/23931.svg" alt="">
-          </a>
-          <a href="#facebook">
-            <img class="icon" src="https://image.flaticon.com/icons/svg/34/34304.svg" alt="">
-          </a>
-          <a href="#instagram">
-            <img class="icon" src="https://image.flaticon.com/icons/svg/61/61164.svg" alt="">
-          </a>
-        </div>
-      </div>
-    </div>
-  </footer>
 </body>
 </html>
